@@ -1,5 +1,5 @@
 <footer class="footer">
-STMIK Rosma © 2020 
+Politeknik Jatiluhur © 2024 
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

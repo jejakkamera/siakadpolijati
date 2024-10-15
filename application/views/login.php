@@ -10,7 +10,8 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
    
-    <title>Siakad STMIK Rosma</title>
+    <title>Siakad Polijati</title>
+    <link rel="icon" type="image/png" href="https://polijati.ac.id/wp-content/uploads/2024/08/Logo-Politeknik-Jatiluhur.png" />
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url(); ?>assets/themplate/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -38,7 +39,7 @@
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <section id="wrapper" class="login-register login-sidebar"  style="background-image:url(<?php echo base_url(); ?>assets/login3.jpg);background-size: cover;">
+    <section id="wrapper" class="login-register login-sidebar"  style="background-image:url(<?php echo base_url(); ?>assets/Siakad_Polijati_1.jpeg);background-size: cover;">
     
     <div class="login-box card">
     <div class="card-block">
@@ -71,7 +72,7 @@
         </div>                         
         <div class="form-group text-center m-t-20">
           <div class="col-xs-12">
-            <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" id="cek" name='cek'>Log In</button>
+            <button class="btn btn-warning btn-lg btn-block text-uppercase waves-effect waves-light" id="cek" name='cek'>Log In</button>
           </div>
           <form class="form-horizontal" id="recoverform" action="index.html">
         <div class="form-group mt-3 ">
