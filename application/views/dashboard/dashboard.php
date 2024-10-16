@@ -109,7 +109,7 @@
                     <div class="card-header">
                                 <h4 class="m-b-0 text-white">Sistem Informasi Akademik </h4></div>
                             <div class="card-block">
-                                <h3 class="card-title">STMIK ROSMA</h3>
+                                <h3 class="card-title">POLITEKNIK JATILUHUR</h3>
                                 <p class="card-text"><?= $data_informasi_text->text ?>.</p>
                                 <a href="<?php echo base_url('welcome/arp'); ?>" class="btn btn-primary">Academic Regulation</a>
                                 <a href="<?php echo base_url('welcome/rdd'); ?>" class="btn btn-primary">Regulation Decree and Documentation</a>

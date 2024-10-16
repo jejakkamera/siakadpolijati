@@ -9,7 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/themplate/assets/images/logo-official1.png">
+    <title>Siakad Polijati</title>
+    <link rel="icon" type="image/png" href="https://polijati.ac.id/wp-content/uploads/2024/08/Logo-Politeknik-Jatiluhur.png" />
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/themplate/assets/images/logo-official1.png"> -->
     <title>POLITEKNIK JATILUHUR</title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url(); ?>assets/themplate/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">

@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '103.173.75.211',
-	'username' => 'rosma',
-	'password' => 'toorX',
-	'database' => 'project_rosma_siakad',
+	'hostname' => '103.76.120.43',
+	'username' => 'wadmin',
+	'password' => 'wvz5zRX6rgl7',
+	'database' => 'siakad_jatiluhur_dev',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
