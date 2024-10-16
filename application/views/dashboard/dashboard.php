@@ -28,7 +28,7 @@
                                     <!-- Message -->
                                     <?php foreach ($data_informasi_file as $key) {?>
                                         <a href="<?= base_url().'/assets/informasi/'.$key['file'] ?>">
-                                            <div class="user-img"> <span class="round"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span></div>
+                                            <div class="user-img"> <span class="round" style="background-color: #FF8D19;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span></div>
                                             <div class="mail-contnet">
                                                 <h5><?= str_replace('_',' ',$key['file']) ?></h5> <span class="mail-desc">PDF</span> </div>
                                         </a>
@@ -111,8 +111,8 @@
                             <div class="card-block">
                                 <h3 class="card-title">POLITEKNIK JATILUHUR</h3>
                                 <p class="card-text"><?= $data_informasi_text->text ?>.</p>
-                                <a href="<?php echo base_url('welcome/arp'); ?>" class="btn btn-primary">Academic Regulation</a>
-                                <a href="<?php echo base_url('welcome/rdd'); ?>" class="btn btn-primary">Regulation Decree and Documentation</a>
+                                <a style="background-color: #FF8D19; border: 1px solid #FF8D19" href="<?php echo base_url('welcome/arp'); ?>" class="btn btn-primary">Academic Regulation</a>
+                                <a style="background-color: #FF8D19; border: 1px solid #FF8D19" href="<?php echo base_url('welcome/rdd'); ?>" class="btn btn-primary">Regulation Decree and Documentation</a>
                             </div>
                     </div>
                    

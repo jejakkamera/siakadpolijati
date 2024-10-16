@@ -43,7 +43,7 @@
         <!-- Topbar header - style you can find in pages.scss -->
         <!-- ============================================================== -->
         <header class="topbar">
-            <nav class="navbar top-navbar navbar-toggleable-sm navbar-light">
+            <nav class="navbar top-navbar navbar-toggleable-sm navbar-light; border: 1px solid red;" style="background: #fff">
                 <!-- ============================================================== -->
                 <!-- Logo -->
                 <!-- ============================================================== -->
@@ -56,7 +56,7 @@
                         <span>
 
                             <!-- Light Logo text -->
-                            <img src="<?php echo base_url(); ?>assets/themplate/assets/images/logo-official1.png" width="50" class="light-logo" alt="homepage" /></span> </a>
+                            <img src="https://polijati.ac.id/wp-content/uploads/2024/08/ploijati__1_-removebg-preview-300x87.png" width="120" class="light-logo" alt="homepage" /></span> </a>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Logo -->
