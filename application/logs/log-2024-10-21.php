@@ -8116,3 +8116,89 @@ DEBUG - 2024-10-21 11:33:39 --> Global POST, GET and COOKIE data sanitized
 INFO - 2024-10-21 11:33:39 --> Input Class Initialized
 INFO - 2024-10-21 11:33:39 --> Language Class Initialized
 ERROR - 2024-10-21 11:33:39 --> 404 Page Not Found: Assets/themplate
+INFO - 2024-10-21 11:36:12 --> Config Class Initialized
+INFO - 2024-10-21 11:36:12 --> Hooks Class Initialized
+DEBUG - 2024-10-21 11:36:12 --> UTF-8 Support Enabled
+INFO - 2024-10-21 11:36:12 --> Utf8 Class Initialized
+INFO - 2024-10-21 11:36:12 --> URI Class Initialized
+INFO - 2024-10-21 11:36:12 --> Router Class Initialized
+INFO - 2024-10-21 11:36:12 --> Output Class Initialized
+INFO - 2024-10-21 11:36:12 --> Security Class Initialized
+DEBUG - 2024-10-21 11:36:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-21 11:36:12 --> Input Class Initialized
+INFO - 2024-10-21 11:36:12 --> Language Class Initialized
+INFO - 2024-10-21 11:36:12 --> Loader Class Initialized
+INFO - 2024-10-21 11:36:13 --> Helper loaded: url_helper
+INFO - 2024-10-21 11:36:13 --> Helper loaded: security_helper
+INFO - 2024-10-21 11:36:13 --> Database Driver Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-10-21 11:36:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-21 11:36:13 --> Helper loaded: form_helper
+INFO - 2024-10-21 11:36:13 --> Form Validation Class Initialized
+INFO - 2024-10-21 11:36:13 --> Database Driver Class Initialized
+INFO - 2024-10-21 11:36:13 --> Model "Master_model" initialized
+INFO - 2024-10-21 11:36:13 --> Model "Alert" initialized
+INFO - 2024-10-21 11:36:13 --> Controller Class Initialized
+INFO - 2024-10-21 11:36:13 --> Config Class Initialized
+INFO - 2024-10-21 11:36:13 --> Hooks Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> UTF-8 Support Enabled
+INFO - 2024-10-21 11:36:13 --> Utf8 Class Initialized
+INFO - 2024-10-21 11:36:13 --> URI Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> No URI present. Default controller set.
+INFO - 2024-10-21 11:36:13 --> Router Class Initialized
+INFO - 2024-10-21 11:36:13 --> Output Class Initialized
+INFO - 2024-10-21 11:36:13 --> Security Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-21 11:36:13 --> Input Class Initialized
+INFO - 2024-10-21 11:36:13 --> Language Class Initialized
+INFO - 2024-10-21 11:36:13 --> Loader Class Initialized
+INFO - 2024-10-21 11:36:13 --> Helper loaded: url_helper
+INFO - 2024-10-21 11:36:13 --> Helper loaded: security_helper
+INFO - 2024-10-21 11:36:13 --> Database Driver Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-10-21 11:36:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-21 11:36:13 --> Helper loaded: form_helper
+INFO - 2024-10-21 11:36:13 --> Form Validation Class Initialized
+INFO - 2024-10-21 11:36:13 --> Database Driver Class Initialized
+INFO - 2024-10-21 11:36:13 --> Model "Master_model" initialized
+INFO - 2024-10-21 11:36:13 --> Model "Alert" initialized
+INFO - 2024-10-21 11:36:13 --> Controller Class Initialized
+INFO - 2024-10-21 11:36:13 --> Config Class Initialized
+INFO - 2024-10-21 11:36:13 --> Hooks Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> UTF-8 Support Enabled
+INFO - 2024-10-21 11:36:13 --> Utf8 Class Initialized
+INFO - 2024-10-21 11:36:13 --> URI Class Initialized
+INFO - 2024-10-21 11:36:13 --> Router Class Initialized
+INFO - 2024-10-21 11:36:13 --> Output Class Initialized
+INFO - 2024-10-21 11:36:13 --> Security Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-21 11:36:13 --> Input Class Initialized
+INFO - 2024-10-21 11:36:13 --> Language Class Initialized
+INFO - 2024-10-21 11:36:13 --> Loader Class Initialized
+INFO - 2024-10-21 11:36:13 --> Helper loaded: url_helper
+INFO - 2024-10-21 11:36:13 --> Helper loaded: security_helper
+INFO - 2024-10-21 11:36:13 --> Database Driver Class Initialized
+DEBUG - 2024-10-21 11:36:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-10-21 11:36:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-10-21 11:36:13 --> Helper loaded: form_helper
+INFO - 2024-10-21 11:36:13 --> Form Validation Class Initialized
+INFO - 2024-10-21 11:36:13 --> Database Driver Class Initialized
+INFO - 2024-10-21 11:36:13 --> Model "Master_model" initialized
+INFO - 2024-10-21 11:36:13 --> Model "Alert" initialized
+INFO - 2024-10-21 11:36:13 --> Controller Class Initialized
+INFO - 2024-10-21 11:36:13 --> File loaded: C:\laragon\www\siakadpolijati\application\views\login.php
+INFO - 2024-10-21 11:36:13 --> File loaded: C:\laragon\www\siakadpolijati\application\views\master/footer.php
+INFO - 2024-10-21 11:36:13 --> Final output sent to browser
+DEBUG - 2024-10-21 11:36:13 --> Total execution time: 0.1675
+INFO - 2024-10-21 11:36:19 --> Config Class Initialized
+INFO - 2024-10-21 11:36:19 --> Hooks Class Initialized
+DEBUG - 2024-10-21 11:36:19 --> UTF-8 Support Enabled
+INFO - 2024-10-21 11:36:19 --> Utf8 Class Initialized
+INFO - 2024-10-21 11:36:19 --> URI Class Initialized
+INFO - 2024-10-21 11:36:19 --> Router Class Initialized
+INFO - 2024-10-21 11:36:19 --> Output Class Initialized
+INFO - 2024-10-21 11:36:19 --> Security Class Initialized
+DEBUG - 2024-10-21 11:36:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-10-21 11:36:19 --> Input Class Initialized
+INFO - 2024-10-21 11:36:19 --> Language Class Initialized
+ERROR - 2024-10-21 11:36:19 --> 404 Page Not Found: Assets/themplate
