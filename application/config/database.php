@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '103.76.120.43',
-	'username' => 'wadmin',
-	'password' => 'wvz5zRX6rgl7',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
 	'database' => 'siakad_jatiluhur_dev',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

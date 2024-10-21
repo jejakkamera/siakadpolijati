@@ -23,9 +23,10 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-  <script src="<?php echo base_url(); ?>assets/themplate/assets/plugins/jquery/jquery.min.js"></script>
+    <![endif]-->
+    
+    <script src="<?php echo base_url(); ?>assets/themplate/assets/plugins/jquery/jquery.min.js"></script>
+    <link href="<?php echo  base_url(); ?>assets/themplate/main/css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,34 +35,67 @@
     <!-- ============================================================== -->
     <div class="preloader">
         <svg class="circular" viewBox="25 25 50 50">
-            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
     </div>
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
-    <section id="wrapper" class="login-register login-sidebar"  style="background-image:url(<?php echo base_url(); ?>assets/Siakad_Polijati_1.jpeg);background-size: cover;">
-    
-    <div class="login-box card">
-    <div class="card-block">
+    <div class="login-container container">
+      <img class="background-login" src="<?php echo base_url(); ?>assets/Siakad_Polijati_1.png" alt="">
+      <div class="section-1">
+        <div class="section-1-1">
+          <div class="form-element">
+            <div class="label-container">
+              <label for="username">Username</label>
+            </div>
+            <input class="form-control" type="text" required="" name="uname_id" id="username">
+          </div>
+          <div class="form-element">
+            <div class="label-container">
+              <label for="password">Password</label>
+            </div>
+            <input class="form-control" type="password" required="" name="pass" id="password">
+          </div>
+          <div class="form-element">
+            <div class="checkbox checkbox-primary pull-left p-t-0">
+              <input id="checkbox-signup" type="checkbox">
+              <label for="checkbox-signup"> Remember me </label>
+            </div>
+            <!-- <a href="javascript:void(0)" id="to-recover" class="text-dark pull-right"><i class="fa fa-info m-r-5"></i> APP Info?</a> </div> -->
+          </div>
+          <div id="pesan"></div>
+          <button style="height: 40px; font-size: 16px; display: flex; justify-content: center; align-items: center" class="btn btn-warning btn-lg btn-block text-uppercase waves-effect waves-light" id="cek" name='cek'>Log In</button>
+          <form class="form-horizontal" id="recoverform" action="index.html">
+            <div class="form-group mt-3 ">
+              <div class="col-xs-12">
+                <h3>APP Info</h3>
+                <p class="text-muted">Gunakan NPM sebagai Username! </p>
+                Gunakan Tanggal Lahir Sebagai Password
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  
+    <!-- <div class="login-box card" style="border: 1px solid blue; display: flex; justify-content: center; align-items: center">
+      <div style="border: 1px solid red; width: 100%; min-height: 200px;"></div> -->
+      <!-- <div class="card-block" style="border: 1px solid red; width: 100%; height: 100px !important"> -->
       
-        <a href="javascript:void(0)" width="300px" style="margin-top:100px" class="text-center db"><img src="<?php echo base_url(); ?>assets/themplate/assets/images/logo-official.png" alt="" /></a>
+        <!-- <a href="javascript:void(0)" width="300px" style="margin-top:100px" class="text-center db"><img src="<?php echo base_url(); ?>assets/themplate/assets/images/logo-official.png" alt="" /></a> -->
    
-        <div class="form-group m-t-30">
+        <!-- <div class="form-group m-t-30">
           <div class="col-xs-5">
             <input class="form-control" type="text" required="" placeholder="Username" name="uname_id" id="username">
           </div>
         </div>
+
         <div class="form-group">
           <div class="col-xs-5">
             <input class="form-control" type="password" required="" placeholder="Password" name="pass" id="password">
           </div>
         </div>
-        <div class="form-group">
-         
-        </div>
-        <div id="pesan">
-			  
-        </div>
+
+        <div id="pesan"></div>
         <div class="form-group">
           <div class="col-md-12">
             <div class="checkbox checkbox-primary pull-left p-t-0">
@@ -69,24 +103,26 @@
               <label for="checkbox-signup"> Remember me </label>
             </div>
             <a href="javascript:void(0)" id="to-recover" class="text-dark pull-right"><i class="fa fa-info m-r-5"></i> APP Info?</a> </div>
-        </div>                         
-        <div class="form-group text-center m-t-20">
+          </div>  
+        </div>   -->
+
+        <!-- <div class="form-group text-center m-t-20">
           <div class="col-xs-12">
-            <button class="btn btn-warning btn-lg btn-block text-uppercase waves-effect waves-light" id="cek" name='cek'>Log In</button>
+            <button style="height: 40px; font-size: 16px; display: flex; justify-content: center; align-items: center" class="btn btn-warning btn-lg btn-block text-uppercase waves-effect waves-light" id="cek" name='cek'>Log In</button>
           </div>
           <form class="form-horizontal" id="recoverform" action="index.html">
-        <div class="form-group mt-3 ">
-          <div class="col-xs-12">
-            <h3>APP Info</h3>
-            <p class="text-muted">Gunakan NPM sebagai Username! </p>
-            Gunaka Tanggal Lahir Sebagai Password
-          </div>
-        </div>
-      </form>
-        </div>
-    </div>
+            <div class="form-group mt-3 ">
+              <div class="col-xs-12">
+                <h3>APP Info</h3>
+                <p class="text-muted">Gunakan NPM sebagai Username! </p>
+                Gunakan Tanggal Lahir Sebagai Password
+              </div>
+            </div>
+          </form>
+        </div> -->
+      <!-- </div> -->
     
-  </div>
+    <!-- </div> -->
   
 </section>
     <!-- ============================================================== -->
